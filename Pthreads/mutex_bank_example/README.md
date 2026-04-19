@@ -53,6 +53,8 @@ pthread_mutex_lock(&mutex);
 
 pthread_mutex_unlock(&mutex);
 ```
+Thread 2 must not read the shared balance until Thread 1 completes its whole critical section
+that is: read → modify → write
 
 This ensures:
 
