@@ -2,6 +2,8 @@
 #include <pthread.h>
 #include "bank.h"
 
+// I added a comment here
+
 void* deposit(void *amount);
 
 // mutex variable
