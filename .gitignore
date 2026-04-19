@@ -1,2 +1,8 @@
+# binaries
 main
+*.out
 *.o
+
+# editor / system
+.vscode/
+*.swp
