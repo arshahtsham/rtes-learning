@@ -106,9 +106,19 @@ This page tracks my progress across two learning paths:
 
 # 2. Additional C Learning Progress
 
-Only C topics and exercises that have actually been studied or implemented will be added to this section.
+This section contains C concepts practiced while implementing the exercises currently available in this repository. Topics that have not yet been studied are not listed.
 
-No additional C theory or programming exercises have been logged yet.
+| No. | C Topic or Exercise | Status | Practiced In | Progress / Notes |
+|---:|---|---|---|---|
+| C.1 | Functions and function declarations | Done | `Pthreads/mutex_bank_example/` | Used functions to organize bank-account operations and program flow |
+| C.2 | Header files and multi-file C programs | Done | `Pthreads/mutex_bank_example/` | Separated declarations and implementations using `bank.h`, `bank.c`, and `main.c` |
+| C.3 | Structures for shared program state | Done | `Pthreads/mutex_bank_example/` | Used structured data to represent and manage shared bank-account state |
+| C.4 | Passing data to thread functions | Done | `Pthreads/mutex_bank_example/` | Practiced passing program data to POSIX thread entry functions |
+| C.5 | Basic error handling and return-value checking | Done | `Pthreads/mutex_bank_example/`, `Pthreads/semaphore/` | Checked results from thread and synchronization API calls |
+| C.6 | Loops and control flow | Done | `Pthreads/semaphore/basic/`, `Pthreads/semaphore/Prod_cons/` | Used loops and conditions to control repeated thread operations |
+| C.7 | Shared variables and synchronization-aware access | Done | `Pthreads/mutex_bank_example/`, `Pthreads/semaphore/Prod_cons/` | Practiced safely accessing data shared between threads |
+| C.8 | Producer-consumer program structure | Done | `Pthreads/semaphore/Prod_cons/` | Organized producer and consumer functions around shared data and semaphores |
+| C.9 | Compiling C programs with pthread support | Done | `Pthreads/` | Compiled multithreaded C programs using the pthread library |
 
 ---
 
